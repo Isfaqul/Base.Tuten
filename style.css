@@ -87,10 +87,10 @@ h1 {
 }
 
 button[type="submit"] img {
-  width: clamp(15px, 100%, 35px);
-  opacity: 0.7;
+  width: clamp(10px, 100%, 35px);
+  opacity: 0.9;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 button {
@@ -104,17 +104,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(32, 51, 102);
-}
-
-button[type="submit"]:hover img {
-  opacity: 1;
-}
-
-@media only screen {
-  button[type="submit"]:active img {
-    opacity: 1;
-  }
+  background-color: rgb(24, 46, 105);
 }
 
 button:active {
