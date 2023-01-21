@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;900&family=Source+Code+Pro:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="img/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <title>Base.Tuten</title>
+  </head>
+  <body>
+    <main>
+      <section class="container container-title">
+        <h1>Base.TuTen</h1>
+        <p class="tagline">
+          Convert Binary
+          <span class="repeat-icon"
+            ><img src="img/repeat-icon.svg" alt=""
+          /></span>
+          Decimal
+        </p>
+      </section>
+
+      <section class="container container-body">
+        <div class="container-input">
+          <label for="bin-input" class="title-command">Binary</label>
+          <div class="container-field-btn">
+            <input
+              type="number"
+              id="bin-input"
+              placeholder="Enter binary number here"
+            />
+            <button type="submit" id="bin-btn">Convert</button>
+          </div>
+        </div>
+        <div class="container-input">
+          <label for="dec-input" class="title-command">Decimal</label>
+          <div class="container-field-btn">
+            <input
+              required
+              type="number"
+              id="dec-input"
+              placeholder="Enter decimal number here"
+            />
+            <button type="submit" id="dec-btn">Convert</button>
+          </div>
+        </div>
+        <button type="reset" class="btn-reset" id="reset-btn">Reset</button>
+      </section>
+    </main>
+    <footer>
+      <p>created by Isfaqul</p>
+    </footer>
+  </body>
+</html>
