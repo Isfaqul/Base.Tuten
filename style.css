@@ -118,6 +118,9 @@ button[type="submit"]:active img {
 button:active {
   background-color: rgb(18, 28, 56);
 }
+button:focus {
+  background-color: rgb(18, 28, 56);
+}
 
 input[type="number"],
 button {
